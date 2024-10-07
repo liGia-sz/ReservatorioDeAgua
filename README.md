@@ -15,16 +15,16 @@ A tabela verdade abaixo apresenta as possíveis combinações dos estados das bo
 e as ações resultantes no sistema (S1: Bomba, S2: Eletroválvula, E: Possíveis erros):
 
 TABELA VERDADE
-// | A  | B  | C  | S1 | S2 | E  | 
-// |----|----|----|----|----|----| 
-// | 0  | 0  | 0  | 0  | 0  | 0  |  *Todos os reservatórios vazios*
-// | 0  | 0  | 1  | 0  | 0  | 1  |  *Reservatório 2 cheio (erro)*
-// | 0  | 1  | 0  | 0  | 0  | 1  |  *Reservatório 1 cheio (erro)*
-// | 0  | 1  | 1  | 0  | 0  | 1  |  *Reservatório 1 e 2 cheios (erro)*
-// | 1  | 0  | 0  | 1  | 0  | 0  |  *Reservatório 1 cheio, liga a bomba*
-// | 1  | 0  | 1  | 0  | 0  | 1  |  *Reservatório 2 cheio (erro)*
-// | 1  | 1  | 0  | 1  | 1  | 0  |  *Reservatório 1 cheio e 2 não,vai bombeando*
-// | 1  | 1  | 1  | 0  | 1  | 0  |  *Reservatórios 1 e 2 cheios, desliga a bomba*
+ | A  | B  | C  | S1 | S2 | E  | 
+ |----|----|----|----|----|----| 
+ | 0  | 0  | 0  | 0  | 0  | 0  |  *Todos os reservatórios vazios*
+ | 0  | 0  | 1  | 0  | 0  | 1  |  *Reservatório 2 cheio (erro)*
+ | 0  | 1  | 0  | 0  | 0  | 1  |  *Reservatório 1 cheio (erro)*
+ | 0  | 1  | 1  | 0  | 0  | 1  |  *Reservatório 1 e 2 cheios (erro)*
+ | 1  | 0  | 0  | 1  | 0  | 0  |  *Reservatório 1 cheio, liga a bomba*
+ | 1  | 0  | 1  | 0  | 0  | 1  |  *Reservatório 2 cheio (erro)*
+ | 1  | 1  | 0  | 1  | 1  | 0  |  *Reservatório 1 cheio e 2 não,vai bombeando*
+ | 1  | 1  | 1  | 0  | 1  | 0  |  *Reservatórios 1 e 2 cheios, desliga a bomba*
 
 
 ## O que foi utilizado
