@@ -14,7 +14,7 @@ seguindo as regras abaixo:
 A tabela verdade abaixo apresenta as possíveis combinações dos estados das boias (A, B, C) 
 e as ações resultantes no sistema (S1: Bomba, S2: Eletroválvula, E: Possíveis erros):
 
-TABELA VERDADE
+ |**TABELA VERDADE**|
  | A  | B  | C  | S1 | S2 | E  | 
  |----|----|----|----|----|----| 
  | 0  | 0  | 0  | 0  | 0  | 0  |  *Todos os reservatórios vazios*
