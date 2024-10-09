@@ -14,7 +14,7 @@ seguindo as regras abaixo:
 A tabela verdade abaixo apresenta as possíveis combinações dos estados das boias (A, B, C) 
 e as ações resultantes no sistema (S1: Bomba, S2: Eletroválvula, E: Possíveis erros):
 
- |**TABELA VERDADE**|
+ | **TABELA VERDADE** |
  | A  | B  | C  | S1 | S2 | E  | 
  |----|----|----|----|----|----| 
  | 0  | 0  | 0  | 0  | 0  | 0  |  *Todos os reservatórios vazios*
@@ -35,11 +35,11 @@ e as ações resultantes no sistema (S1: Bomba, S2: Eletroválvula, E: Possívei
 ## Etapas implementadas
 - Ler o estado das boias (A, B e C).
 - Lógica de controle para determinar o estado da bomba e da válvula com base nas boias:
-- Quando nenhuma boia está acionada, a bomba e a válvula ficam desativadas.
-- Quando a boia A está acionada: liga a bomba.
-- Quando as boias A e B estão acionadas: continua bombeando e abre a válvula.
-- Quando todas as boias estão acionadas: desliga a bomba, mas mantém a válvula aberta.
-- Se houver inconsistência, desativa a bomba e a válvula e sinaliza um erro.
+   - Quando nenhuma boia está acionada, a bomba e a válvula ficam desativadas.
+   - Quando a boia A está acionada: liga a bomba.
+   - Quando as boias A e B estão acionadas: continua bombeando e abre a válvula.
+   - Quando todas as boias estão acionadas: desliga a bomba, mas mantém a válvula aberta.
+   - Se houver inconsistência, desativa a bomba e a válvula e sinaliza um erro.
 - Exibir o status do sistema após a leitura das boias.
 - Opção para o usuário realizar um novo teste ou encerrar o programa.
 
