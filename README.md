@@ -9,8 +9,7 @@ seguindo as regras abaixo:
 3. A eletroválvula S2 irá permitir a entrada de água enquanto a boia B for acionada.
 4. Exibir um sinal de erro quando houver inconsistência no sistema de monitoramento do reservatório 1, evitando que a bomba e a eletroválvula acionem.
    
-<img src="![Reservatório Desenho](https://github.com/user-attachments/assets/58e5d115-eb85-4f0e-84df-38e64534487a)" alt="Atividade Proposta" style="border: 5px solid #000; padding: 10px;">
-![Reservatório Desenho](https://github.com/user-attachments/assets/58e5d115-eb85-4f0e-84df-38e64534487a)
+![Desenho do Reservatório](https://github.com/user-attachments/assets/58e5d115-eb85-4f0e-84df-38e64534487a)
 
 A tabela verdade abaixo apresenta as possíveis combinações dos estados das boias (A, B, C) 
 e as ações resultantes no sistema (S1: Bomba, S2: Eletroválvula, E: Possíveis erros):
